@@ -32,9 +32,9 @@ export default {
     extend: {
       colors:{
         primary:"#F5F5F5",
-                secendary:"#707070",
-                thired: "#151515",
-                current: "F3F3F3",
+        secendary:"#707070",
+        thired: "#151515",
+        current: "#F3F3F3",
       }
     },
     container: { 

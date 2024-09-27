@@ -3,6 +3,7 @@ import Navbar from '../components/home/Navbar'
 import Banner from '../components/About/Banner'
 import AboutMe from '../components/About/AboutMe'
 import Education from '../components/About/Education'
+import Contact from '../components/About/Contact'
 const About = () => {
   return (
   <>
@@ -10,6 +11,7 @@ const About = () => {
   <Banner/>
   <AboutMe/>
   <Education/>
+  <Contact/>
   </>
   )
 }
