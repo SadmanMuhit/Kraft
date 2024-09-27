@@ -5,8 +5,8 @@ import Blog from './Page/Blog'
 function App() {
 return (
   // <Home/>
-  <About/>
-  // <Blog/>
+  // <About/>
+  <Blog/>
   )
 }
 

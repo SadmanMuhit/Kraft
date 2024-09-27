@@ -1,9 +1,14 @@
 import React from 'react'
-import Navbar from '../components/home/Navbar'
-
+import Navbar from '../component/home/Navbar'
+import Blogitems from '../component/Blog/Blogitems'
+import Banner from '../component/Blog/Banner'
 const Blog = () => {
   return (
-    <Navbar/>
+    <>
+      <Navbar/>
+      <Banner/>
+      <Blogitems/>
+    </>
   )
 }
 

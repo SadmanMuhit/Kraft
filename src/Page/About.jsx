@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../components/home/Navbar'
-import Banner from '../components/About/Banner'
-import AboutMe from '../components/About/AboutMe'
-import Education from '../components/About/Education'
-import Contact from '../components/About/Contact'
-import Footer from '../components/home/Footer'
+import Navbar from '../component/home/Navbar'
+import Banner from '../component/About/Banner'
+import AboutMe from '../component/About/AboutMe'
+import Education from '../component/About/Education'
+import Contact from '../component/About/Contact'
+import Footer from '../component/home/Footer'
 const About = () => {
   return (
   <>
