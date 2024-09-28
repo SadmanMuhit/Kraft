@@ -9,11 +9,11 @@ const Navbar = () => {
                 <img src="/logo.png" alt="logo"/>
             </div>
             <ul className="flex gap-10 text-third font-medium">
-                <li><Link to="/" className='hover:text-secendary duration-300'>Home</Link></li>
-                <li><Link to="/about" className='hover:text-secendary duration-300'>About</Link></li>
-                <li><Link to="/" className='hover:text-secendary duration-300'>Portfolio Layouts</Link></li>
-                <li><Link to="/" className='hover:text-secendary duration-300'>Portfolio Single</Link></li>
-                <li><Link to="/blog" className='hover:text-secendary duration-300'>Blog</Link></li> 
+                <li><Link to="/" className='hover:text-secendary duration-300 transition-all'>Home</Link></li>
+                <li><Link to="/about" className='hover:text-secendary duration-300 transition-all'>About</Link></li>
+                <li><Link to="/" className='hover:text-secendary duration-300 transition-all'>Portfolio Layouts</Link></li>
+                <li><Link to="/" className='hover:text-secendary duration-300 transition-all'>Portfolio Single</Link></li>
+                <li><Link to="/blog" className='hover:text-secendary duration-300 transition-all'>Blog</Link></li> 
             </ul>
         </div>
      </nav>

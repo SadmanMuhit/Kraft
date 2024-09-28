@@ -22,7 +22,7 @@ const Footer = () => {
                 <li className="rounded-full w-8 h-8 bg-white flex justify-center items-center"><a href="#"><SlSocialPintarest/></a></li>
             </ul>
         </div>
-        <p className="text-white text-center border-t pt-9 border-gray-500">© 2020 CaliberThemes</p>
+        <p className="text-white text-center border-t pt-9 border-gray-500 group hover:bg-black transition-all duration-300">© 2020 CaliberThemes</p>
     </footer>
     </>
   )
