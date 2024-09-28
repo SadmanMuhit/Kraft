@@ -6,10 +6,8 @@ import Footer from '../component/home/Footer'
 const Blog = () => {
   return (
     <>
-      <Navbar/>
       <Banner/>
-      <Blogitems/>
-      <Footer/>
+      <Blogitems/> 
     </>
   )
 }

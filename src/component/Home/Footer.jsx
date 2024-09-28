@@ -15,7 +15,7 @@ const Footer = () => {
                 <li><a href="#">Portfolio Single</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
-            <ul className="text-black flex justify-center gap-4SSS mb-12 gap-10">
+            <ul className="text-black flex justify-center gap-4 mb-12">
                 <li className="rounded-full w-8 h-8 bg-white flex justify-center items-center"><a href="#"><FaFacebookF/></a></li>
                 <li className="rounded-full w-8 h-8 bg-white flex justify-center items-center"><a href="#"><FaTwitter/></a></li>
                 <li className="rounded-full w-8 h-8 bg-white flex justify-center items-center"><a href="#"><FaBasketballBall/></a></li>
