@@ -8,12 +8,12 @@ const Navbar = () => {
             <div>
                 <img src="/logo.png" alt="logo"/>
             </div>
-            <ul className="flex gap-10 text-slate-700 font-medium">
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/">Portfolio Layouts</Link></li>
-                <li><Link to="/">Portfolio Single</Link></li>
-                <li><Link to="/blog">Blog</Link></li> 
+            <ul className="flex gap-10 text-third font-medium">
+                <li><Link to="/" className='hover:text-secendary duration-300'>Home</Link></li>
+                <li><Link to="/about" className='hover:text-secendary duration-300'>About</Link></li>
+                <li><Link to="/" className='hover:text-secendary duration-300'>Portfolio Layouts</Link></li>
+                <li><Link to="/" className='hover:text-secendary duration-300'>Portfolio Single</Link></li>
+                <li><Link to="/blog" className='hover:text-secendary duration-300'>Blog</Link></li> 
             </ul>
         </div>
      </nav>
