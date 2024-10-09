@@ -19,10 +19,8 @@ const Portfolieo = () => {
                     <a href="#" className='hover:text-secendary duration-300'>Logo</a>
                 </li>
             </ul>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                <div className="w-full before:block before:absolute before:w-full before:h-full before:bg-black relative inline-block">
-                <img src="/Container.png" alt=""/>
-                </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+                <img src="/Container.png" alt="" className="w-full"/>
                 <img src="/Container.png" alt="" className="w-full"/>
                 <img src="/Container.png" alt="" className="w-full"/>
                 <img src="/Container.png" alt="" className="w-full"/>
