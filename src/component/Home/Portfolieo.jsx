@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Portfolieo = () => {
   return (
    <>
@@ -19,7 +18,7 @@ const Portfolieo = () => {
                     <a href="#" className='hover:text-secendary duration-300'>Logo</a>
                 </li>
             </ul>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <img src="/Container.png" alt="" className="w-full"/>
                 <img src="/Container.png" alt="" className="w-full"/>
                 <img src="/Container.png" alt="" className="w-full"/>
@@ -35,5 +34,4 @@ const Portfolieo = () => {
    </>
   )
 }
-
 export default Portfolieo
